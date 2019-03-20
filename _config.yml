@@ -3,6 +3,7 @@ exclude: [.gitignore, notes.sln]
 title: ~ Programming notes ~
 description: A small site with personal notes.
 collections:
-  - language-reference
+  language-reference:
+    output: true
 plugins:
   - jekyll-sitemap
