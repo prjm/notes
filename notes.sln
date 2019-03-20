@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Index", "Index", "{0BAF8DA3-3F14-4597-B7AF-07A560A20C38}"
+	ProjectSection(SolutionItems) = preProject
+		index.md = index.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reference", "Reference", "{7730E86F-E12B-4270-BD18-91E01F01B606}"
+	ProjectSection(SolutionItems) = preProject
+		reference\index.md = reference\index.md
+		reference\library.md = reference\library.md
+		reference\package.md = reference\package.md
+		reference\program.md = reference\program.md
+		reference\rules.md = reference\rules.md
+		reference\unit.md = reference\unit.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {054814EA-8313-4238-9B81-77DEEF82D5CE}
+	EndGlobalSection
+EndGlobal
