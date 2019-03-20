@@ -1,6 +1,6 @@
 ---
 layout: home
-title: start page
+title: ~ Programming notes ~
 ---
 
 * [Language reference](_language-reference/index.md)
