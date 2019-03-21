@@ -5,7 +5,13 @@ layout: default
 
 # Syntax rules
 
-[File](index) = [Program](program.md) |
-                [Library](library.md) |
-                [Package](package.md) |
-                [Unit](unit.md) ;
+## General file format
+
+[File](index) = [Program](program) |
+                [Library](library) |
+                [Package](package) |
+                [Unit](unit) ;
+
+[Program](program) = [[ProgramHead](programhead)] 
+                     [[UsesFileClause](usesfileclause)] 
+                     [Block](block) '.' ;

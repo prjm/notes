@@ -11,12 +11,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Index", "Index", "{0BAF8DA3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LanguageReference", "LanguageReference", "{EFAA762B-AA7C-4EB0-AA5B-6B7365524D57}"
 	ProjectSection(SolutionItems) = preProject
+		_language-reference\block.md = _language-reference\block.md
 		_language-reference\index.md = _language-reference\index.md
 		_language-reference\library.md = _language-reference\library.md
 		_language-reference\package.md = _language-reference\package.md
 		_language-reference\program.md = _language-reference\program.md
+		_language-reference\programhead.md = _language-reference\programhead.md
 		_language-reference\rules.md = _language-reference\rules.md
 		_language-reference\unit.md = _language-reference\unit.md
+		_language-reference\usesfileclause.md = _language-reference\usesfileclause.md
 	EndProjectSection
 EndProject
 Global

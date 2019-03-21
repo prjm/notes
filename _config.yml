@@ -1,5 +1,5 @@
 theme: jekyll-theme-cayman
-exclude: [.gitignore, notes.sln]
+exclude: [.gitignore, notes.sln, Gemfile, Gemfile.lock]
 title: ~ Programming notes ~
 description: A small site with personal notes.
 collections:

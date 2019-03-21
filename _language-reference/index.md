@@ -4,10 +4,16 @@ layout: langref
 ---
 # Language Reference
 
+## File format
+
 A valid source file (_compilable unit_) can have one
 of the following file formats:
 
-* a [program](program.md)
-* a [library](library.md)
-* a [package](package.md) or 
-* a [unit](unit.md)
+* a [program](program)
+* a [library](library)
+* a [package](package) or 
+* a [unit](unit)
+
+## Syntax
+
+    File = Program | Library | Package | Unit ;
