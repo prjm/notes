@@ -1,5 +1,5 @@
 ---
-title: [ Language reference - Blocks ]
+title: Block of statements
 layout: langref
 ---
-# Blocks
+# Block of statements

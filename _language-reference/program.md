@@ -1,10 +1,16 @@
 ---
-title: Program
+title: Programs
 layout: langref
 ---
 # Programs
 
-## File Format
+## Syntax
+
+```
+Program = [ProgramHead] [UsesFileClause] Block "." ;
+```
+
+## Description
 
 A program consists of 
 
@@ -13,12 +19,6 @@ A program consists of
 * an [main program block](block)
 * and a final dot
 
-## Syntax
-
-```
-Program ::= [ProgramHead] [UsesFileClause] Block "." ;
-```
-
 ## Example
 
 Here is the classic `HelloWorld.dpr` example:
@@ -26,9 +26,11 @@ Here is the classic `HelloWorld.dpr` example:
 ```pascal
 program HelloWorld;
 
+{$APPTYPE CONSOLE}
+
 uses SysUtils;
 
-begin
+begin   
   WriteLn('Hello World!');
 end.
 ```

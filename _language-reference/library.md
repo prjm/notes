@@ -1,5 +1,5 @@
 ---
-title: [ Language reference - Library ]
+title: Libraries
 layout: langref
 ---
 # Libraries

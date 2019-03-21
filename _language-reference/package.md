@@ -1,5 +1,5 @@
 ---
-title: [ Language reference - Package ]
+title: Packages
 layout: langref
 ---
 # Packages
